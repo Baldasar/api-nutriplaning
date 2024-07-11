@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ body, input, textarea, select{
+     font-family: "Montserrat";
+ }
+.weak-text{
+    font-size: 14px;
+    color: #757575;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main-header, .main-footer{
+    height: 50px;
+    background: #163316;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 9px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.main-header-item, .main-footer-item{
+    display: flex;
+    grid-gap:10px;
+    font-size: 18px;
+}
+.main-footer{
+    justify-content: center;
+}
+
+.content-wrapper{
+    min-height: calc(100% - 100px);
+    background: #e7e7e7;
+    padding: 4vw;
+}
+
+.main-content{
+    box-shadow: rgb(0 0 0 / 36%) 0px 0px 8px 1px;
+    border-top: 3px solid #163316;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background: white;
+
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+}
+.content-body{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.content-body h1{
+    text-align: center;
+}
+
+.content-body form, input, select{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-bottom: 19px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.content-body label{
+    font-size: 20px;
+}
+.content-body form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-body input[type="submit"],  .content-body input[type="button"]{
+    color: white;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 28%) 0px 1px 3px 1px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align:center;
+    align-items: center;
+    border: none;
+    background: #4d8942;
+}
+
+.remove-refeicao{
+    margin-top: 0!important;
+    padding: 5px;
+    font-size: 16px;
+    background: #712828 !important;
+}
+
+.refeicao{
+    background: whitesmoke;
+    border-radius: 8px;
+    box-shadow: inset rgb(0 0 0 / 16%) 0px 0px 8px 1px;
+    margin: 5px 5px;
+    padding: 15px;
+}
+
+.display-value, .true-value{
+    margin-top: 5px;
+    text-align: center;
+    padding: 0;
+}
+
+.gerar-refeicoes, #add-refeicao{
+
+
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    width: 80% !important;
+    font-size: 16px;
+
+    background: #4d8942;
+}
+.alimento-name{
+    font-weight: bold;
+}
+.alimento p{
+    font-size: 14px;
+    color: #757575;
+}
